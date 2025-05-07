@@ -2,7 +2,7 @@ from aiogram import types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils.exceptions import ChatNotFound
 import logging
-from config import ADMINS  # Импортируем список админов из конфига
+from config import admin  # Импортируем список админов из конфига
 
 async def broadcast_command(message: types.Message):
     """Обработчик команды /all для рассылки сообщений"""
