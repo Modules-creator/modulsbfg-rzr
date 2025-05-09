@@ -3,7 +3,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 import sqlite3
 import logging
-from config import admin
+from config import admin, API_TOKEN
 
 # Подключение к базе данных
 connection = sqlite3.connect('data.db')
